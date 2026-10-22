@@ -11,11 +11,10 @@ __pycache__/
 **/GPUL2.py
 *L2.py
 *weighted.py
-
+*.h5
 #temp:
 *.csv
 *.xlsx
 *.json
 *.png
-*.pt
-*.h5
+

@@ -1,0 +1,9 @@
+checkpoint_path,model_family,status,prediction_sample_ids_match_eval_split,n_evaluation_geometries
+c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\ArGEnT_self_att_noSDF\Trained_models\argent_self_nosdf_s_177b264d.pt,ArGEnT_self_att_noSDF,ok,True,1000
+c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\GINOT\Trained_models\ginot_a_match_250k_35ccca67.pt,GINOT-A,ok,True,1000
+c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\PointNetMLPJoint\Trained_models\pn_s_full_ln_pos12_78193d0f.pt,PointNetMLPJoint,ok,True,1000
+c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\PointNetMLPJoint_FP\Trained_models\pnmlp_16932d84.pt,PointNetMLPJoint_FP,ok,True,1000
+c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\PointNetMLPJoint_weighted\Trained_models\pn_s_full_ln_pos12_78193d0f.pt,PointNetMLPJoint_weighted,ok,True,1000
+c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge_no_stress\ArGEnT_self_att_noSDF\Trained_models\argent_self_nosdf_s_cf025919.pt,ArGEnT_self_att_noSDF,ok,True,1000
+c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge_no_stress\GINOT\Trained_models\ginot_a_match_250k_25c02577.pt,GINOT-A,ok,True,1000
+c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge_no_stress\PointNetMLPJoint_FP\Trained_models\pnmlp_1bbaae12.pt,PointNetMLPJoint_FP,ok,True,1000

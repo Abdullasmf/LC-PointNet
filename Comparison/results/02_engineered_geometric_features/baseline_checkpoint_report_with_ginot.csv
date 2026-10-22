@@ -1,0 +1,5 @@
+regime,ablation,model_family,status,checkpoint_path
+Zonal,Edge,ArGEnT_self_att_noSDF,discovered,c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\ArGEnT_self_att_noSDF\Trained_models\argent_self_nosdf_s_177b264d.pt
+Zonal,Edge,GINOT-A,discovered,c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\GINOT\Trained_models\ginot_a_match_250k_35ccca67.pt
+Zonal,Edge,PointNetMLPJoint,discovered,c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\PointNetMLPJoint\Trained_models\pn_s_full_ln_pos12_78193d0f.pt
+Zonal,Edge,PointNetMLPJoint_FP,discovered,c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\PointNetMLPJoint_FP\Trained_models\pnmlp_16932d84.pt

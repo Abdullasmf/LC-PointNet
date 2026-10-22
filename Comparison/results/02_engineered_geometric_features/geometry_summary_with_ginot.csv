@@ -1,0 +1,5 @@
+regime,ablation,model_family,n_geometries,whole_geometry_mean_loglife_mae,whole_geometry_mean_stress_mae,absolute_min_loglife_error_mean,absolute_max_stress_error_mean,critical_zone_agreement
+Zonal,Edge_arc_feat,ArGEnT_self_att_noSDF,1000,0.009810616428616824,1.2046199554420887,0.03078288769721985,5.761845825195312,0.996
+Zonal,Edge_arc_feat,GINOT-A,1000,0.02051872351664682,2.475088068415736,0.1904689087867737,37.46646057128906,0.99
+Zonal,Edge_arc_feat,PointNetMLPJoint_FP_headfeat,1000,0.008149817060476199,1.0020974919652026,0.02655874514579773,5.039421508789062,0.997
+Zonal,Edge_arc_feat,PointNetMLPJoint_headfeat,1000,0.014382742532047502,1.7644511357056023,0.05987511897087097,11.279816162109375,0.997

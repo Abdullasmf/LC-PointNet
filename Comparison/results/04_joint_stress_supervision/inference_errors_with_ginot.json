@@ -1,0 +1,58 @@
+[
+  {
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\ArGEnT_self_att_noSDF\\Trained_models\\argent_self_nosdf_s_177b264d.pt",
+    "model_family": "ArGEnT_self_att_noSDF",
+    "status": "ok",
+    "prediction_sample_ids_match_eval_split": true,
+    "n_evaluation_geometries": 1000
+  },
+  {
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\GINOT\\Trained_models\\ginot_a_match_250k_35ccca67.pt",
+    "model_family": "GINOT-A",
+    "status": "ok",
+    "prediction_sample_ids_match_eval_split": true,
+    "n_evaluation_geometries": 1000
+  },
+  {
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint\\Trained_models\\pn_s_full_ln_pos12_78193d0f.pt",
+    "model_family": "PointNetMLPJoint",
+    "status": "ok",
+    "prediction_sample_ids_match_eval_split": true,
+    "n_evaluation_geometries": 1000
+  },
+  {
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint_FP\\Trained_models\\pnmlp_16932d84.pt",
+    "model_family": "PointNetMLPJoint_FP",
+    "status": "ok",
+    "prediction_sample_ids_match_eval_split": true,
+    "n_evaluation_geometries": 1000
+  },
+  {
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint_weighted\\Trained_models\\pn_s_full_ln_pos12_78193d0f.pt",
+    "model_family": "PointNetMLPJoint_weighted",
+    "status": "ok",
+    "prediction_sample_ids_match_eval_split": true,
+    "n_evaluation_geometries": 1000
+  },
+  {
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\ArGEnT_self_att_noSDF\\Trained_models\\argent_self_nosdf_s_cf025919.pt",
+    "model_family": "ArGEnT_self_att_noSDF",
+    "status": "ok",
+    "prediction_sample_ids_match_eval_split": true,
+    "n_evaluation_geometries": 1000
+  },
+  {
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\GINOT\\Trained_models\\ginot_a_match_250k_25c02577.pt",
+    "model_family": "GINOT-A",
+    "status": "ok",
+    "prediction_sample_ids_match_eval_split": true,
+    "n_evaluation_geometries": 1000
+  },
+  {
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\PointNetMLPJoint_FP\\Trained_models\\pnmlp_1bbaae12.pt",
+    "model_family": "PointNetMLPJoint_FP",
+    "status": "ok",
+    "prediction_sample_ids_match_eval_split": true,
+    "n_evaluation_geometries": 1000
+  }
+]

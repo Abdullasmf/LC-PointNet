@@ -1,0 +1,833 @@
+[
+  {
+    "regime": "Zonal",
+    "ablation_source": "Edge",
+    "ablation": "Edge",
+    "model_family": "ArGEnT_self_att_noSDF",
+    "variant_name": "argent_self_nosdf_s_177b264d",
+    "fp_status": "non-FP",
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\ArGEnT_self_att_noSDF\\Trained_models\\argent_self_nosdf_s_177b264d.pt",
+    "file_size_bytes": 3459222,
+    "sha256": "04d489d391f831a2f6e5605410590e7f08ae8345d1f633a9492c00a7ddb978a1",
+    "training_scripts": [
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\ArGEnT_self_att_noSDF\\Training_script.py"
+    ],
+    "script_target_names": [
+      "Stress",
+      "LogLife"
+    ],
+    "script_extra_feat_cols": [],
+    "script_input_cols": [
+      0,
+      1
+    ],
+    "script_query_cols": [
+      0,
+      1
+    ],
+    "script_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "script_expected_repr": "edge",
+    "script_training_fraction": null,
+    "script_eval_fraction": 0.2,
+    "script_split_seed": 42,
+    "loaded_successfully": true,
+    "status": "discovered",
+    "missing_keys": [],
+    "family_dir": "ArGEnT_self_att_noSDF",
+    "arch": {
+      "hidden_dim": 128,
+      "num_heads": 4,
+      "num_layers": 2,
+      "output_dim": 128,
+      "out_channels": 2,
+      "attention_type": "cross",
+      "use_sdf": false,
+      "in_ch_geom": 2
+    },
+    "normalized_arch_hash": "c204fce255c295ca",
+    "arch_hash": "761f7c4edd13cf2a",
+    "target_names": null,
+    "target_channels": 2,
+    "stress_target_mode": "with_stress",
+    "extra_feat_cols": [],
+    "representation": null,
+    "h5_filename": null,
+    "geometry_family": null,
+    "train_sample_ids": null,
+    "val_sample_ids": null,
+    "split_seed": null,
+    "eval_fraction": null,
+    "training_fraction": null,
+    "feature_signature": {
+      "extra_feat_cols": [],
+      "input_cols": [
+        0,
+        1
+      ],
+      "query_cols": [
+        0,
+        1
+      ]
+    },
+    "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "effective_representation": "edge",
+    "effective_geometry_family": "disc",
+    "effective_split_seed": 42,
+    "effective_eval_fraction": 0.2,
+    "effective_training_fraction": null,
+    "training_config_id": "ca5324d5b4e306c2"
+  },
+  {
+    "regime": "Zonal",
+    "ablation_source": "Edge",
+    "ablation": "Edge",
+    "model_family": "GINOT-A",
+    "variant_name": "ginot_a_match_250k_35ccca67",
+    "fp_status": "non-FP",
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\GINOT\\Trained_models\\ginot_a_match_250k_35ccca67.pt",
+    "file_size_bytes": 3030058,
+    "sha256": "0bc7382404cbdfccfb8bcc0c2cc6f1e6f4a57837792dc6e45804662939347fb4",
+    "training_scripts": [
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\GINOT\\Training_script.py"
+    ],
+    "script_target_names": [
+      "Stress",
+      "LogLife"
+    ],
+    "script_extra_feat_cols": [],
+    "script_input_cols": null,
+    "script_query_cols": [
+      0,
+      1
+    ],
+    "script_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "script_expected_repr": "edge",
+    "script_training_fraction": null,
+    "script_eval_fraction": 0.2,
+    "script_split_seed": 42,
+    "loaded_successfully": true,
+    "status": "discovered",
+    "missing_keys": [],
+    "family_dir": "GINOT",
+    "arch": {
+      "model_family": "GINOT-A",
+      "model_class": "GINOT_A",
+      "model_config_identity": "GINOT_A",
+      "ginot_cfg": {
+        "geom_coord_dim": 2,
+        "query_coord_dim": 2,
+        "geom_posenc_freqs": 6,
+        "query_posenc_freqs": 6,
+        "n_centroids": 128,
+        "n_neighbors": 16,
+        "local_mlp_widths": [
+          72,
+          72
+        ],
+        "token_dim": 72,
+        "encoder_heads": 4,
+        "encoder_cross_attn_layers": 1,
+        "encoder_self_attn_layers": 1,
+        "decoder_cross_attn_layers": 1,
+        "decoder_heads": 4,
+        "decoder_mlp_widths": [
+          144,
+          72
+        ],
+        "head_mlp_widths": [
+          144,
+          72
+        ],
+        "dropout": 0.0,
+        "encoder_gf_dim": 0,
+        "head_gf_dim": 0
+      },
+      "out_dim": 2
+    },
+    "normalized_arch_hash": "558fffe46f3b67d3",
+    "arch_hash": "17121c1d4aab7a99",
+    "target_names": null,
+    "target_channels": 2,
+    "stress_target_mode": "with_stress",
+    "extra_feat_cols": [],
+    "representation": null,
+    "h5_filename": null,
+    "geometry_family": null,
+    "train_sample_ids": null,
+    "val_sample_ids": null,
+    "split_seed": null,
+    "eval_fraction": null,
+    "training_fraction": null,
+    "feature_signature": {
+      "extra_feat_cols": [],
+      "input_cols": [
+        0,
+        1
+      ],
+      "query_cols": [
+        0,
+        1
+      ]
+    },
+    "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "effective_representation": "edge",
+    "effective_geometry_family": "disc",
+    "effective_split_seed": 42,
+    "effective_eval_fraction": 0.2,
+    "effective_training_fraction": null,
+    "training_config_id": "6b9b3082f4887f9d"
+  },
+  {
+    "regime": "Zonal",
+    "ablation_source": "Edge",
+    "ablation": "Edge",
+    "model_family": "PointNetMLPJoint",
+    "variant_name": "pn_s_full_ln_pos12_78193d0f",
+    "fp_status": "non-FP",
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint\\Trained_models\\pn_s_full_ln_pos12_78193d0f.pt",
+    "file_size_bytes": 2965098,
+    "sha256": "e155d55a22d9ef9055c3d3b62b1a1d199bb02f17946b5bba94da36c9c8ab4800",
+    "training_scripts": [
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint\\Training_script.py",
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint\\Training_script_L1.py",
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint\\Training_script_weighted.py"
+    ],
+    "script_target_names": [
+      "Stress",
+      "LogLife"
+    ],
+    "script_extra_feat_cols": [],
+    "script_input_cols": null,
+    "script_query_cols": [
+      0,
+      1
+    ],
+    "script_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "script_expected_repr": "edge",
+    "script_training_fraction": null,
+    "script_eval_fraction": 0.2,
+    "script_split_seed": 42,
+    "loaded_successfully": true,
+    "status": "discovered",
+    "missing_keys": [],
+    "family_dir": "PointNetMLPJoint",
+    "arch": {
+      "encoder_cfg": {
+        "latent_dim": 128,
+        "in_channels": 0,
+        "pre_hidden": [
+          64,
+          64
+        ],
+        "sa_blocks": [
+          {
+            "n_samples": 0,
+            "radius": 0.02,
+            "max_k": 32,
+            "out_ch": 128,
+            "mlp_hidden": [
+              64
+            ]
+          },
+          {
+            "n_samples": 0,
+            "radius": 0.06,
+            "max_k": 32,
+            "out_ch": 256,
+            "mlp_hidden": [
+              128
+            ]
+          }
+        ],
+        "gf_hidden": [
+          64
+        ],
+        "norm": "layer",
+        "num_groups": 16,
+        "pool": "max",
+        "posenc": {
+          "n_freqs": 12,
+          "scale": 1.0
+        },
+        "head_posenc": {
+          "n_freqs": 12,
+          "scale": 1.0
+        },
+        "head_norm": "layer",
+        "head_dropout": 0.0
+      },
+      "head_hidden": [
+        256,
+        256,
+        128
+      ],
+      "out_dim": 2
+    },
+    "normalized_arch_hash": "d902e0051cc94ace",
+    "arch_hash": "0869dfb63a1f3cac",
+    "target_names": null,
+    "target_channels": 2,
+    "stress_target_mode": "with_stress",
+    "extra_feat_cols": [],
+    "representation": null,
+    "h5_filename": null,
+    "geometry_family": null,
+    "train_sample_ids": null,
+    "val_sample_ids": null,
+    "split_seed": null,
+    "eval_fraction": null,
+    "training_fraction": null,
+    "feature_signature": {
+      "extra_feat_cols": [],
+      "input_cols": [
+        0,
+        1
+      ],
+      "query_cols": [
+        0,
+        1
+      ]
+    },
+    "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "effective_representation": "edge",
+    "effective_geometry_family": "disc",
+    "effective_split_seed": 42,
+    "effective_eval_fraction": 0.2,
+    "effective_training_fraction": null,
+    "training_config_id": "8991ee357684b442"
+  },
+  {
+    "regime": "Zonal",
+    "ablation_source": "Edge",
+    "ablation": "Edge",
+    "model_family": "PointNetMLPJoint_FP",
+    "variant_name": "pnmlp_16932d84",
+    "fp_status": "FP",
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint_FP\\Trained_models\\pnmlp_16932d84.pt",
+    "file_size_bytes": 3098274,
+    "sha256": "5a4051f09936adfe3f233fa3cea2405015372d7f2ddab32bf9804797d750bbab",
+    "training_scripts": [
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint_FP\\Training_script.py",
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint_FP\\Training_script_L1.py"
+    ],
+    "script_target_names": [
+      "Stress",
+      "LogLife"
+    ],
+    "script_extra_feat_cols": [],
+    "script_input_cols": null,
+    "script_query_cols": [
+      0,
+      1
+    ],
+    "script_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "script_expected_repr": "edge",
+    "script_training_fraction": null,
+    "script_eval_fraction": 0.2,
+    "script_split_seed": 42,
+    "loaded_successfully": true,
+    "status": "discovered",
+    "missing_keys": [],
+    "family_dir": "PointNetMLPJoint_FP",
+    "arch": {
+      "encoder_cfg": {
+        "latent_dim": 128,
+        "pre_hidden": [
+          64,
+          64
+        ],
+        "sa_blocks": [
+          {
+            "max_k": 32,
+            "mlp_hidden": [
+              32
+            ],
+            "n_samples": 0,
+            "out_ch": 128,
+            "radius": 0.015
+          },
+          {
+            "max_k": 32,
+            "mlp_hidden": [
+              64
+            ],
+            "n_samples": 0,
+            "out_ch": 256,
+            "radius": 0.06
+          }
+        ],
+        "gf_hidden": [
+          64
+        ],
+        "posenc": {
+          "n_freqs": 12,
+          "scale": 1.0
+        },
+        "head_posenc": {
+          "n_freqs": 12,
+          "scale": 1.0
+        },
+        "norm": "layer",
+        "num_groups": 16,
+        "pool": "max",
+        "head_norm": "layer",
+        "head_dropout": 0.0,
+        "fp": {
+          "fp2_out": 128,
+          "fp1_out": 64
+        }
+      },
+      "head_hidden": [
+        192,
+        192,
+        96
+      ],
+      "out_dim": 2
+    },
+    "normalized_arch_hash": "868963d86c585a23",
+    "arch_hash": "644e97eb0031ccfb",
+    "target_names": null,
+    "target_channels": 2,
+    "stress_target_mode": "with_stress",
+    "extra_feat_cols": [],
+    "representation": null,
+    "h5_filename": null,
+    "geometry_family": null,
+    "train_sample_ids": null,
+    "val_sample_ids": null,
+    "split_seed": null,
+    "eval_fraction": null,
+    "training_fraction": null,
+    "feature_signature": {
+      "extra_feat_cols": [],
+      "input_cols": [
+        0,
+        1
+      ],
+      "query_cols": [
+        0,
+        1
+      ]
+    },
+    "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "effective_representation": "edge",
+    "effective_geometry_family": "disc",
+    "effective_split_seed": 42,
+    "effective_eval_fraction": 0.2,
+    "effective_training_fraction": null,
+    "training_config_id": "15c46d5f9f6e469b"
+  },
+  {
+    "regime": "Zonal",
+    "ablation_source": "Edge",
+    "ablation": "Edge",
+    "model_family": "PointNetMLPJoint_weighted",
+    "variant_name": "pn_s_full_ln_pos12_78193d0f",
+    "fp_status": "non-FP",
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint_weighted\\Trained_models\\pn_s_full_ln_pos12_78193d0f.pt",
+    "file_size_bytes": 2967530,
+    "sha256": "2fc9476d3acb08b12b3df6876fc71149bce1e5f1d5e46a2c61cb9e9f76b43733",
+    "training_scripts": [
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint_weighted\\Training_script_weighted.py"
+    ],
+    "script_target_names": [
+      "Stress",
+      "LogLife"
+    ],
+    "script_extra_feat_cols": [],
+    "script_input_cols": null,
+    "script_query_cols": [
+      0,
+      1
+    ],
+    "script_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "script_expected_repr": "edge",
+    "script_training_fraction": null,
+    "script_eval_fraction": 0.2,
+    "script_split_seed": 42,
+    "loaded_successfully": true,
+    "status": "discovered",
+    "missing_keys": [],
+    "family_dir": "PointNetMLPJoint_weighted",
+    "arch": {
+      "encoder_cfg": {
+        "latent_dim": 128,
+        "in_channels": 0,
+        "pre_hidden": [
+          64,
+          64
+        ],
+        "sa_blocks": [
+          {
+            "n_samples": 0,
+            "radius": 0.02,
+            "max_k": 32,
+            "out_ch": 128,
+            "mlp_hidden": [
+              64
+            ]
+          },
+          {
+            "n_samples": 0,
+            "radius": 0.06,
+            "max_k": 32,
+            "out_ch": 256,
+            "mlp_hidden": [
+              128
+            ]
+          }
+        ],
+        "gf_hidden": [
+          64
+        ],
+        "norm": "layer",
+        "num_groups": 16,
+        "pool": "max",
+        "posenc": {
+          "n_freqs": 12,
+          "scale": 1.0
+        },
+        "head_posenc": {
+          "n_freqs": 12,
+          "scale": 1.0
+        },
+        "head_norm": "layer",
+        "head_dropout": 0.0
+      },
+      "head_hidden": [
+        256,
+        256,
+        128
+      ],
+      "out_dim": 2
+    },
+    "normalized_arch_hash": "d902e0051cc94ace",
+    "arch_hash": "0869dfb63a1f3cac",
+    "target_names": null,
+    "target_channels": 2,
+    "stress_target_mode": "with_stress",
+    "extra_feat_cols": [],
+    "representation": null,
+    "h5_filename": null,
+    "geometry_family": null,
+    "train_sample_ids": null,
+    "val_sample_ids": null,
+    "split_seed": null,
+    "eval_fraction": null,
+    "training_fraction": null,
+    "feature_signature": {
+      "extra_feat_cols": [],
+      "input_cols": [
+        0,
+        1
+      ],
+      "query_cols": [
+        0,
+        1
+      ]
+    },
+    "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "effective_representation": "edge",
+    "effective_geometry_family": "disc",
+    "effective_split_seed": 42,
+    "effective_eval_fraction": 0.2,
+    "effective_training_fraction": null,
+    "training_config_id": "ff1bcd712a89b0b5"
+  },
+  {
+    "regime": "Zonal",
+    "ablation_source": "Edge_no_stress",
+    "ablation": "Edge_no_stress",
+    "model_family": "ArGEnT_self_att_noSDF",
+    "variant_name": "argent_self_nosdf_s_cf025919",
+    "fp_status": "non-FP",
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\ArGEnT_self_att_noSDF\\Trained_models\\argent_self_nosdf_s_cf025919.pt",
+    "file_size_bytes": 3490454,
+    "sha256": "ff47e060da979954e62d43bfcb8f03e1ccf528d4d71f814b3574d2633f9e139e",
+    "training_scripts": [
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\ArGEnT_self_att_noSDF\\Training_script.py"
+    ],
+    "script_target_names": [
+      "LogLife"
+    ],
+    "script_extra_feat_cols": [],
+    "script_input_cols": [
+      0,
+      1
+    ],
+    "script_query_cols": [
+      0,
+      1
+    ],
+    "script_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "script_expected_repr": "edge",
+    "script_training_fraction": null,
+    "script_eval_fraction": 0.2,
+    "script_split_seed": 42,
+    "loaded_successfully": true,
+    "status": "discovered",
+    "missing_keys": [],
+    "family_dir": "ArGEnT_self_att_noSDF",
+    "arch": {
+      "hidden_dim": 128,
+      "num_heads": 4,
+      "num_layers": 2,
+      "output_dim": 128,
+      "out_channels": 1,
+      "attention_type": "cross",
+      "use_sdf": false,
+      "in_ch_geom": 2
+    },
+    "normalized_arch_hash": "c204fce255c295ca",
+    "arch_hash": "3f3e1955d9791dc9",
+    "target_names": null,
+    "target_channels": 1,
+    "stress_target_mode": "no_stress",
+    "extra_feat_cols": [],
+    "representation": null,
+    "h5_filename": null,
+    "geometry_family": null,
+    "train_sample_ids": null,
+    "val_sample_ids": null,
+    "split_seed": null,
+    "eval_fraction": null,
+    "training_fraction": null,
+    "feature_signature": {
+      "extra_feat_cols": [],
+      "input_cols": [
+        0,
+        1
+      ],
+      "query_cols": [
+        0,
+        1
+      ]
+    },
+    "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "effective_representation": "edge",
+    "effective_geometry_family": "disc",
+    "effective_split_seed": 42,
+    "effective_eval_fraction": 0.2,
+    "effective_training_fraction": null,
+    "training_config_id": "ca5324d5b4e306c2"
+  },
+  {
+    "regime": "Zonal",
+    "ablation_source": "Edge_no_stress",
+    "ablation": "Edge_no_stress",
+    "model_family": "GINOT-A",
+    "variant_name": "ginot_a_match_250k_25c02577",
+    "fp_status": "non-FP",
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\GINOT\\Trained_models\\ginot_a_match_250k_25c02577.pt",
+    "file_size_bytes": 3031018,
+    "sha256": "0162d11302bdad5ebc7f984ef09a6c88230122aff3c7baab8ae34b640b1f8288",
+    "training_scripts": [
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\GINOT\\Training_script.py"
+    ],
+    "script_target_names": [
+      "LogLife"
+    ],
+    "script_extra_feat_cols": [],
+    "script_input_cols": null,
+    "script_query_cols": [
+      0,
+      1
+    ],
+    "script_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "script_expected_repr": "edge",
+    "script_training_fraction": null,
+    "script_eval_fraction": 0.2,
+    "script_split_seed": 42,
+    "loaded_successfully": true,
+    "status": "discovered",
+    "missing_keys": [],
+    "family_dir": "GINOT",
+    "arch": {
+      "model_family": "GINOT-A",
+      "model_class": "GINOT_A",
+      "model_config_identity": "GINOT_A",
+      "ginot_cfg": {
+        "geom_coord_dim": 2,
+        "query_coord_dim": 2,
+        "geom_posenc_freqs": 6,
+        "query_posenc_freqs": 6,
+        "n_centroids": 128,
+        "n_neighbors": 16,
+        "local_mlp_widths": [
+          72,
+          72
+        ],
+        "token_dim": 72,
+        "encoder_heads": 4,
+        "encoder_cross_attn_layers": 1,
+        "encoder_self_attn_layers": 1,
+        "decoder_cross_attn_layers": 1,
+        "decoder_heads": 4,
+        "decoder_mlp_widths": [
+          144,
+          72
+        ],
+        "head_mlp_widths": [
+          144,
+          72
+        ],
+        "dropout": 0.0,
+        "encoder_gf_dim": 0,
+        "head_gf_dim": 0
+      },
+      "out_dim": 1
+    },
+    "normalized_arch_hash": "558fffe46f3b67d3",
+    "arch_hash": "0170696a2d3dc405",
+    "target_names": null,
+    "target_channels": 1,
+    "stress_target_mode": "no_stress",
+    "extra_feat_cols": [],
+    "representation": null,
+    "h5_filename": null,
+    "geometry_family": null,
+    "train_sample_ids": null,
+    "val_sample_ids": null,
+    "split_seed": null,
+    "eval_fraction": null,
+    "training_fraction": null,
+    "feature_signature": {
+      "extra_feat_cols": [],
+      "input_cols": [
+        0,
+        1
+      ],
+      "query_cols": [
+        0,
+        1
+      ]
+    },
+    "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "effective_representation": "edge",
+    "effective_geometry_family": "disc",
+    "effective_split_seed": 42,
+    "effective_eval_fraction": 0.2,
+    "effective_training_fraction": null,
+    "training_config_id": "6b9b3082f4887f9d"
+  },
+  {
+    "regime": "Zonal",
+    "ablation_source": "Edge_no_stress",
+    "ablation": "Edge_no_stress",
+    "model_family": "PointNetMLPJoint_FP",
+    "variant_name": "pnmlp_1bbaae12",
+    "fp_status": "FP",
+    "checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\PointNetMLPJoint_FP\\Trained_models\\pnmlp_1bbaae12.pt",
+    "file_size_bytes": 3081442,
+    "sha256": "b9383a127a4a4657c463b6274ae92cf73a9b447445456a0cf6903192819e08c5",
+    "training_scripts": [
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\PointNetMLPJoint_FP\\Training_script.py",
+      "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\PointNetMLPJoint_FP\\Training_script_L1.py"
+    ],
+    "script_target_names": [
+      "LogLife"
+    ],
+    "script_extra_feat_cols": [],
+    "script_input_cols": null,
+    "script_query_cols": [
+      0,
+      1
+    ],
+    "script_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "script_expected_repr": "edge",
+    "script_training_fraction": null,
+    "script_eval_fraction": 0.2,
+    "script_split_seed": 42,
+    "loaded_successfully": true,
+    "status": "discovered",
+    "missing_keys": [],
+    "family_dir": "PointNetMLPJoint_FP",
+    "arch": {
+      "encoder_cfg": {
+        "latent_dim": 128,
+        "pre_hidden": [
+          64,
+          64
+        ],
+        "sa_blocks": [
+          {
+            "max_k": 32,
+            "mlp_hidden": [
+              32
+            ],
+            "n_samples": 0,
+            "out_ch": 128,
+            "radius": 0.015
+          },
+          {
+            "max_k": 32,
+            "mlp_hidden": [
+              64
+            ],
+            "n_samples": 0,
+            "out_ch": 256,
+            "radius": 0.06
+          }
+        ],
+        "gf_hidden": [
+          64
+        ],
+        "posenc": {
+          "n_freqs": 12,
+          "scale": 1.0
+        },
+        "head_posenc": {
+          "n_freqs": 12,
+          "scale": 1.0
+        },
+        "norm": "layer",
+        "num_groups": 16,
+        "pool": "max",
+        "head_norm": "layer",
+        "head_dropout": 0.0,
+        "fp": {
+          "fp2_out": 128,
+          "fp1_out": 64
+        }
+      },
+      "head_hidden": [
+        192,
+        192,
+        96
+      ],
+      "out_dim": 1
+    },
+    "normalized_arch_hash": "868963d86c585a23",
+    "arch_hash": "ae241ec0106b820f",
+    "target_names": null,
+    "target_channels": 1,
+    "stress_target_mode": "no_stress",
+    "extra_feat_cols": [],
+    "representation": null,
+    "h5_filename": null,
+    "geometry_family": null,
+    "train_sample_ids": null,
+    "val_sample_ids": null,
+    "split_seed": null,
+    "eval_fraction": null,
+    "training_fraction": null,
+    "feature_signature": {
+      "extra_feat_cols": [],
+      "input_cols": [
+        0,
+        1
+      ],
+      "query_cols": [
+        0,
+        1
+      ]
+    },
+    "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+    "effective_representation": "edge",
+    "effective_geometry_family": "disc",
+    "effective_split_seed": 42,
+    "effective_eval_fraction": 0.2,
+    "effective_training_fraction": null,
+    "training_config_id": "15c46d5f9f6e469b"
+  }
+]

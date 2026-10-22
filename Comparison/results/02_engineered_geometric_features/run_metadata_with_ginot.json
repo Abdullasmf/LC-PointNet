@@ -1,0 +1,15 @@
+{
+  "commit_sha": "cfca80fc56caf8f51553030c6f394e8254175e73",
+  "evaluation_label": "validation-split evaluation",
+  "results_dir": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\results\\02_engineered_geometric_features",
+  "families": [
+    "PointNetMLPJoint_headfeat",
+    "PointNetMLPJoint_FP_headfeat",
+    "ArGEnT_self_att_noSDF",
+    "GINOT-A"
+  ],
+  "argent_feature_authority": "Training_script.py INPUT_COLS/QUERY_COLS",
+  "quantitative_dataset": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Data_gen\\output\\disc_dataset_edge_deriv_zonal.h5",
+  "qualitative_example_dataset": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\Examples\\disc_example_edge_deriv_zonal.h5",
+  "dataset_available": true
+}

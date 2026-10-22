@@ -1,0 +1,3 @@
+model_family,fp_status,stress_checkpoint_path,no_stress_checkpoint_path,reason
+PointNetMLPJoint,non-FP,c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\PointNetMLPJoint\Trained_models\pn_s_full_ln_pos12_78193d0f.pt,,no no-stress counterpart discovered for same model family + FP status
+PointNetMLPJoint_weighted,non-FP,c:\Users\abfat\Desktop\Disc_lifing_paper_v2\Zonal\Edge\PointNetMLPJoint_weighted\Trained_models\pn_s_full_ln_pos12_78193d0f.pt,,no no-stress counterpart discovered for same model family + FP status

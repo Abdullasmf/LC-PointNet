@@ -1,0 +1,4 @@
+model_family,n_checkpoints,unique_arch_hashes,unique_extra_feat_cols,status
+ArGEnT_self_att_noSDF,5,['761f7c4edd13cf2a'],['[]'],consistent
+GINOT-A,5,['17121c1d4aab7a99'],['[]'],consistent
+PointNetMLPJoint_FP,5,['644e97eb0031ccfb'],['[]'],consistent

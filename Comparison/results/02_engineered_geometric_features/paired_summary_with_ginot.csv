@@ -1,0 +1,4 @@
+left_family,right_family,n_geometries,median_left_minus_right_abs_min_loglife_err,fraction_right_better
+ArGEnT_self_att_noSDF,PointNetMLPJoint_headfeat,1000,-0.019273757934570312,0.311
+ArGEnT_self_att_noSDF,PointNetMLPJoint_FP_headfeat,1000,0.004450678825378418,0.586
+PointNetMLPJoint_headfeat,PointNetMLPJoint_FP_headfeat,1000,0.02342855930328369,0.728

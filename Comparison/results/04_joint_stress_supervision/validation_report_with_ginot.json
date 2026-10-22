@@ -1,0 +1,72 @@
+{
+  "commit": "cfca80fc56caf8f51553030c6f394e8254175e73",
+  "dataset_available": true,
+  "valid_pairs": [
+    {
+      "pair_id": "ArGEnT_self_att_noSDF__ca5324d5b4e306c2",
+      "model_family": "ArGEnT_self_att_noSDF",
+      "fp_status": "non-FP",
+      "stress_variant": "argent_self_nosdf_s_177b264d",
+      "no_stress_variant": "argent_self_nosdf_s_cf025919",
+      "stress_checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\ArGEnT_self_att_noSDF\\Trained_models\\argent_self_nosdf_s_177b264d.pt",
+      "no_stress_checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\ArGEnT_self_att_noSDF\\Trained_models\\argent_self_nosdf_s_cf025919.pt",
+      "training_config_id": "ca5324d5b4e306c2",
+      "split_seed": 42,
+      "eval_fraction": 0.2,
+      "training_fraction": null,
+      "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+      "effective_representation": "edge",
+      "effective_geometry_family": "disc"
+    },
+    {
+      "pair_id": "GINOT-A__6b9b3082f4887f9d",
+      "model_family": "GINOT-A",
+      "fp_status": "non-FP",
+      "stress_variant": "ginot_a_match_250k_35ccca67",
+      "no_stress_variant": "ginot_a_match_250k_25c02577",
+      "stress_checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\GINOT\\Trained_models\\ginot_a_match_250k_35ccca67.pt",
+      "no_stress_checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\GINOT\\Trained_models\\ginot_a_match_250k_25c02577.pt",
+      "training_config_id": "6b9b3082f4887f9d",
+      "split_seed": 42,
+      "eval_fraction": 0.2,
+      "training_fraction": null,
+      "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+      "effective_representation": "edge",
+      "effective_geometry_family": "disc"
+    },
+    {
+      "pair_id": "PointNetMLPJoint_FP__15c46d5f9f6e469b",
+      "model_family": "PointNetMLPJoint_FP",
+      "fp_status": "FP",
+      "stress_variant": "pnmlp_16932d84",
+      "no_stress_variant": "pnmlp_1bbaae12",
+      "stress_checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\PointNetMLPJoint_FP\\Trained_models\\pnmlp_16932d84.pt",
+      "no_stress_checkpoint_path": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge_no_stress\\PointNetMLPJoint_FP\\Trained_models\\pnmlp_1bbaae12.pt",
+      "training_config_id": "15c46d5f9f6e469b",
+      "split_seed": 42,
+      "eval_fraction": 0.2,
+      "training_fraction": null,
+      "effective_h5_filename": "disc_dataset_edge_deriv_zonal.h5",
+      "effective_representation": "edge",
+      "effective_geometry_family": "disc"
+    }
+  ],
+  "overall_mae": {
+    "label": "is mixed / model-dependent",
+    "median": 0.0007991734892129898,
+    "fraction_positive": 0.6666666666666666,
+    "n": 3
+  },
+  "overall_rmse": {
+    "label": "is mixed / model-dependent",
+    "median": 0.0007050149142742157,
+    "fraction_positive": 0.6666666666666666,
+    "n": 3
+  },
+  "critical_low_life_mae": {
+    "label": "suggests improvement from stress supervision",
+    "median": 0.005233496427536011,
+    "fraction_positive": 0.6666666666666666,
+    "n": 3
+  }
+}

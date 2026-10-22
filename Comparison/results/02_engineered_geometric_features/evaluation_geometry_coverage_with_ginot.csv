@@ -1,0 +1,5 @@
+model_family,successful_eval_geometries,shared_eval_geometries,dropped_to_enforce_fairness,evaluation_label
+ArGEnT_self_att_noSDF,1000,1000,0,validation-split evaluation
+PointNetMLPJoint_headfeat,1000,1000,0,validation-split evaluation
+PointNetMLPJoint_FP_headfeat,1000,1000,0,validation-split evaluation
+GINOT-A,1000,1000,0,validation-split evaluation

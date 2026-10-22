@@ -1,0 +1,11 @@
+{
+  "evaluation_label": "validation-split evaluation",
+  "representatives": {
+    "Uniform": {
+      "median": 2200
+    },
+    "Zonal": {
+      "median": 2915
+    }
+  }
+}

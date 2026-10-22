@@ -1,0 +1,4 @@
+model_family,split_seeds_from_scripts,split_test_sizes_from_scripts,fractions_from_scripts,expected_holdout_fraction,status
+ArGEnT_self_att_noSDF,[42],[0.2],"[0.1, 0.25, 0.5, 0.75]",0.2,consistent
+GINOT-A,[42],[0.2],"[0.1, 0.25, 0.5, 0.75]",0.2,consistent
+PointNetMLPJoint_FP,[42],[0.2],"[0.1, 0.25, 0.5, 0.75]",0.2,consistent

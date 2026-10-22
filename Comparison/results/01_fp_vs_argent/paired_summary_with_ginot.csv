@@ -1,0 +1,7 @@
+evaluation_label,regime,left_family,right_family,n_geometries,median_left_minus_right_abs_min_loglife_err,fraction_right_better
+validation-split evaluation,Uniform,ArGEnT_self_att_noSDF,PointNetMLPJoint_FP,1000,0.12549972534179688,0.963
+validation-split evaluation,Zonal,ArGEnT_self_att_noSDF,PointNetMLPJoint_FP,1000,0.19376838207244873,0.959
+validation-split evaluation,Uniform,PointNetMLPJoint,PointNetMLPJoint_FP,1000,0.011683940887451172,0.647
+validation-split evaluation,Zonal,PointNetMLPJoint,PointNetMLPJoint_FP,1000,0.01538848876953125,0.626
+validation-split evaluation,Uniform,GINOT-A,PointNetMLPJoint_FP,1000,0.12125182151794434,0.956
+validation-split evaluation,Zonal,GINOT-A,PointNetMLPJoint_FP,1000,0.1658036708831787,0.907

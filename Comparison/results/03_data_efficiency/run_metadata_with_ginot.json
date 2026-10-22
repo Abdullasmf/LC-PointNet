@@ -1,0 +1,26 @@
+{
+  "commit_sha": "cfca80fc56caf8f51553030c6f394e8254175e73",
+  "evaluation_label": "validation-split evaluation",
+  "results_dir": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\results\\03_data_efficiency",
+  "families": [
+    "PointNetMLPJoint_FP",
+    "ArGEnT_self_att_noSDF",
+    "GINOT-A"
+  ],
+  "ablations": [
+    "Edge_10",
+    "Edge_25",
+    "Edge_50",
+    "Edge_75",
+    "Edge"
+  ],
+  "ablation_to_fraction": {
+    "Edge_10": 0.1,
+    "Edge_25": 0.25,
+    "Edge_50": 0.5,
+    "Edge_75": 0.75,
+    "Edge": 1.0
+  },
+  "quantitative_only_from_production_hdf5": true,
+  "qualitative_examples_use_example_hdf5_only": true
+}

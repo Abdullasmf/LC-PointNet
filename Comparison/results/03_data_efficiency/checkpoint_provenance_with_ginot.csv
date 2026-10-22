@@ -1,0 +1,6 @@
+fraction,model_label,checkpoint_filename,checkpoint_reported_fraction,split_seed,validation_fraction,strict_load_status
+0.1,GINOT-A,ginot_a_match_250k_35ccca67_0.10.pt,0.1,42,0.2,pending notebook reconstruction
+0.25,GINOT-A,ginot_a_match_250k_35ccca67_0.25.pt,0.25,42,0.2,pending notebook reconstruction
+0.5,GINOT-A,ginot_a_match_250k_35ccca67_0.50.pt,0.5,42,0.2,pending notebook reconstruction
+0.75,GINOT-A,ginot_a_match_250k_35ccca67_0.75.pt,0.75,42,0.2,pending notebook reconstruction
+1.0,GINOT-A,ginot_a_match_250k_35ccca67.pt,path-mapped fraction; checkpoint metadata did not explicitly encode fraction,42,0.2,pending notebook reconstruction

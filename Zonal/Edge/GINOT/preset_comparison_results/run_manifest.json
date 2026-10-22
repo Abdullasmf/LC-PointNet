@@ -1,0 +1,84 @@
+{
+  "hdf5_path": "C:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Data_gen\\output\\disc_dataset_edge_deriv_zonal.h5",
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "n_validation_geometries": 1000
+  },
+  "checkpoints": {
+    "MATCH_250K": {
+      "path": "C:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\GINOT\\Trained_models\\ginot_a_match_250k_35ccca67.pt",
+      "parameter_count": 244946,
+      "ginot_cfg": {
+        "geom_coord_dim": 2,
+        "query_coord_dim": 2,
+        "geom_posenc_freqs": 6,
+        "query_posenc_freqs": 6,
+        "n_centroids": 128,
+        "n_neighbors": 16,
+        "local_mlp_widths": [
+          72,
+          72
+        ],
+        "token_dim": 72,
+        "encoder_heads": 4,
+        "encoder_cross_attn_layers": 1,
+        "encoder_self_attn_layers": 1,
+        "decoder_cross_attn_layers": 1,
+        "decoder_heads": 4,
+        "decoder_mlp_widths": [
+          144,
+          72
+        ],
+        "head_mlp_widths": [
+          144,
+          72
+        ],
+        "dropout": 0.0,
+        "encoder_gf_dim": 0,
+        "head_gf_dim": 0
+      }
+    },
+    "MATCH_250K_HIRES": {
+      "path": "C:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Zonal\\Edge\\GINOT\\Trained_models\\ginot_a_match_250k_hires_8dd5be07.pt",
+      "parameter_count": 244946,
+      "ginot_cfg": {
+        "geom_coord_dim": 2,
+        "query_coord_dim": 2,
+        "geom_posenc_freqs": 6,
+        "query_posenc_freqs": 6,
+        "n_centroids": 256,
+        "n_neighbors": 32,
+        "local_mlp_widths": [
+          72,
+          72
+        ],
+        "token_dim": 72,
+        "encoder_heads": 4,
+        "encoder_cross_attn_layers": 1,
+        "encoder_self_attn_layers": 1,
+        "decoder_cross_attn_layers": 1,
+        "decoder_heads": 4,
+        "decoder_mlp_widths": [
+          144,
+          72
+        ],
+        "head_mlp_widths": [
+          144,
+          72
+        ],
+        "dropout": 0.0,
+        "encoder_gf_dim": 0,
+        "head_gf_dim": 0
+      }
+    }
+  },
+  "thresholds": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "selection_rule": "Prioritize <2 MAE/RMSE, then <3, then pooled metrics; inspect paired geometry results."
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "pair_id": "ArGEnT_self_att_noSDF__ca5324d5b4e306c2",
+    "png": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\results\\04_joint_stress_supervision\\figures\\stress_vs_no_stress_ArGEnT_self_att_noSDF_non-FP_fullset_separate_with_ginot.png",
+    "pdf": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\results\\04_joint_stress_supervision\\figures\\stress_vs_no_stress_ArGEnT_self_att_noSDF_non-FP_fullset_separate_with_ginot.pdf",
+    "png_exists": true,
+    "pdf_exists": true
+  },
+  {
+    "pair_id": "GINOT-A__6b9b3082f4887f9d",
+    "png": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\results\\04_joint_stress_supervision\\figures\\stress_vs_no_stress_GINOT-A_non-FP_fullset_separate_with_ginot.png",
+    "pdf": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\results\\04_joint_stress_supervision\\figures\\stress_vs_no_stress_GINOT-A_non-FP_fullset_separate_with_ginot.pdf",
+    "png_exists": true,
+    "pdf_exists": true
+  },
+  {
+    "pair_id": "PointNetMLPJoint_FP__15c46d5f9f6e469b",
+    "png": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\results\\04_joint_stress_supervision\\figures\\stress_vs_no_stress_PointNetMLPJoint_FP_FP_fullset_separate_with_ginot.png",
+    "pdf": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\results\\04_joint_stress_supervision\\figures\\stress_vs_no_stress_PointNetMLPJoint_FP_FP_fullset_separate_with_ginot.pdf",
+    "png_exists": true,
+    "pdf_exists": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "commit_sha": "cfca80fc56caf8f51553030c6f394e8254175e73",
+  "evaluation_label": "validation-split evaluation",
+  "results_dir": "c:\\Users\\abfat\\Desktop\\Disc_lifing_paper_v2\\Comparison\\results\\04_joint_stress_supervision",
+  "dataset_available": true,
+  "valid_pair_ids": [
+    "ArGEnT_self_att_noSDF__ca5324d5b4e306c2",
+    "GINOT-A__6b9b3082f4887f9d",
+    "PointNetMLPJoint_FP__15c46d5f9f6e469b"
+  ],
+  "comparison_delta_convention": "delta = no_stress - stress; positive means the stress-supervised model has lower error.",
+  "nonexistent_regular_pointnet_no_stress_model_included": false
+}

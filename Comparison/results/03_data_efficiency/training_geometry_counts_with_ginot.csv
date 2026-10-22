@@ -1,0 +1,16 @@
+ablation,training_fraction,model_family,training_geometries,count_source,evaluation_geometries,evaluation_label
+Edge_10,0.1,ArGEnT_self_att_noSDF,400,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_10,0.1,GINOT-A,400,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_10,0.1,PointNetMLPJoint_FP,400,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_25,0.25,ArGEnT_self_att_noSDF,1000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_25,0.25,GINOT-A,1000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_25,0.25,PointNetMLPJoint_FP,1000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_50,0.5,ArGEnT_self_att_noSDF,2000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_50,0.5,GINOT-A,2000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_50,0.5,PointNetMLPJoint_FP,2000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_75,0.75,ArGEnT_self_att_noSDF,3000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_75,0.75,GINOT-A,3000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge_75,0.75,PointNetMLPJoint_FP,3000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge,1.0,ArGEnT_self_att_noSDF,4000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge,1.0,GINOT-A,4000,estimated_from_notebook_split,1000,validation-split evaluation
+Edge,1.0,PointNetMLPJoint_FP,4000,estimated_from_notebook_split,1000,validation-split evaluation

@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+*_L1.py
+.vscode
+*.pdf
+*.bak
+*.txt
+**/GPUL2.py
+*L2.py
+*weighted.py
+
+#temp:
+*.csv
+*.xlsx
+*.json
+*.png
+*.pt
+*.h5

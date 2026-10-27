@@ -187,18 +187,7 @@ Validation life bins hold 1,030 / 3,491 / 8,723 / 239,075 / 426,681 nodes (679,0
 
 ## Citation
 
-The paper is under review for ASME Turbo Expo 2027; update with the final DOI once published.
-
-```bibtex
-@inproceedings{fathalla2027lcpointnet,
-  author    = {Fathalla, Abdulla and H{\"o}schler, Klaus},
-  title     = {Beyond Global Error: Low-Life Fatigue Prediction with Local-Context Point-Cloud Surrogates},
-  booktitle = {Proceedings of ASME Turbo Expo 2027},
-  address   = {Calgary, Canada},
-  year      = {2027},
-  note      = {Paper GT2027-200391}
-}
-```
+The paper is under review.
 
 ## Acknowledgements
 
